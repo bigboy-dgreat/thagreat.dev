@@ -74,24 +74,24 @@ const Footer = ({ triggerAnimation }) => {
           </div>
 
           <div className="foot3">
-            <h3>See My Work</h3>
-            <ul>
-              <Link to='https://zedxoriginal.com/'>Zedx</Link>
-              <Link to='/'>Have</Link>
-              <Link to='/'>React Job</Link>
-              <Link to='http://localhost:5173/'>Culture & Style</Link>
-            </ul>
-          </div>
+  <h3>See My Work</h3>
+  <ul>
+    <li><a href="https://zedxoriginal.com/" target="_blank" rel="noopener noreferrer">Zedx</a></li>
+    <li><Link to="/">Have</Link></li> {/* Internal route — this is fine */}
+    <li><Link to="/">React Job</Link></li>
+    <li><a href="http://localhost:5173/" target="_blank" rel="noopener noreferrer">Culture & Style</a></li>
+  </ul>
+</div>
 
           <section id='contact' className="foot4">
-            <h3>Follow Me</h3>
-            <ul>
-              <Link to='/' className='hover:text-red-300'><i className="fa-brands fa-instagram"></i></Link>
-              <Link to='https://x.com/JinadBstefan' className='hover:text-teal-200'><i className="fa-brands fa-x-twitter"></i></Link>
-              <Link to='https://www.linkedin.com/in/thagreat/' className='hover:text-blue-300'><i className="fa-brands fa-linkedin-in"></i></Link>
-              <Link to='https://github.com/bigboy-dgreat/ThaGreat' className='hover:text-black'><i className="fa-brands fa-github"></i></Link>
-            </ul>
-          </section>
+  <h3>Follow Me</h3>
+  <ul>
+    <li><Link to="/" className="hover:text-red-300"><i className="fa-brands fa-instagram"></i></Link></li>
+    <li><a href="https://x.com/JinadBstefan" target="_blank" rel="noopener noreferrer" className="hover:text-teal-200"><i className="fa-brands fa-x-twitter"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/thagreat/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300"><i className="fa-brands fa-linkedin-in"></i></a></li>
+    <li><a href="https://github.com/bigboy-dgreat/ThaGreat" target="_blank" rel="noopener noreferrer" className="hover:text-black"><i className="fa-brands fa-github"></i></a></li>
+  </ul>
+</section>
         </div>
         <hr />
         <p className='copy'>ThaGreat &copy; 2025</p>
